@@ -5,23 +5,22 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
+        {/* <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
-        </p>
+        </p> */}
         {/* <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
+              src="/QR-Code.jpeg"
+              alt="Resume"
               className={styles.vercelLogo}
-              width={100}
-              height={24}
+              width={200}
+              height={240}
               priority
             />
           </a>
@@ -29,64 +28,59 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+       <h1>Hi ...IAM SHAZNA SADIQUE <span></span></h1>
       </div>
 
       <div className={styles.grid}>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://mattool.in/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Docs <span>-&gt;</span>
+            experience <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>co founder and full stack developer of mattool.in . 
+          <br/>
+            provided live bus tracking and door to door delivery service</p>
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://maroon-fawnia-34.tiiny.site"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Learn <span>-&gt;</span>
+            Resume <span>-&gt;</span>
           </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <p>Please checkout my resume here</p>
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://github.com/shazna-sadique/-Create-your-own-story-book-with-AI"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Templates <span>-&gt;</span>
+            Github <span>-&gt;</span>
           </h2>
-          <p>Explore the Next.js 13 playground.</p>
+          <p>checkout my github page here, and the project i build in my recent hackathon</p>
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://www.linkedin.com/in/shazna-sadique-3439aa184/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Deploy <span>-&gt;</span>
+            Linkedin <span>-&gt;</span>
           </h2>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            meanwhile u can checkout my linkedin profile also . 
           </p>
         </a>
       </div>
